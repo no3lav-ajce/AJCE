@@ -1,4 +1,4 @@
-# AJCE Professional Portals
+# AJCE Professional Portal
 
 A modern, institutional web portal for **Amal Jyothi College of Engineering (AJCE)** — designed with a premium codebase reflecting academic excellence and technical innovation.
 
