@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amal Jyothi College of Engineering | Excellence in Education</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/utilities.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span>AMAL JYOTHI <br><small style="font-size: 0.6em; font-weight: 400; letter-spacing: 0.1em;">COLLEGE
+                        OF ENGINEERING</small></span>
+            </a>
+
+            <nav class="nav-links">
+                <div class="nav-item">
+                    <a href="pages/about.html" class="nav-link">About Us</a>
+                </div>
+                <div class="nav-item">
+                    <a href="pages/academics.html" class="nav-link">Academics</a>
+                </div>
+                <div class="nav-item">
+                    <a href="pages/departments.html" class="nav-link">Departments</a>
+                    <!-- Mega Menu Hint: Would go here -->
+                </div>
+                <div class="nav-item">
+                    <a href="pages/admissions.html" class="nav-link">Admissions</a>
+                </div>
+                <div class="nav-item">
+                    <a href="pages/research.html" class="nav-link">Research</a>
+                </div>
+                <div class="nav-item">
+                    <a href="pages/placements.html" class="nav-link">Placement</a>
+                </div>
+                <a href="pages/contact.html" class="btn btn-primary">Apply Now</a>
+            </nav>
+
+            <button class="mobile-menu-btn" aria-label="Toggle navigation menu">
+                <span>&#9776;</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="assets/ajce-campus.jpg" alt="AJCE Campus" class="hero-bg" style="object-position: center bottom;">
+            <div class="container hero-content">
+                <span class="hero-subtitle">Est. 2001 • NAAC 'A' Grade</span>
+                <h1 class="text-white">Empowering Minds, <br>Engineering the Future.</h1>
+                <p class="text-white mb-8" style="font-size: 1.25rem; max-width: 600px; opacity: 0.9;">
+                    Join Kerala's top-tier engineering institution, blending academic excellence with world-class
+                    innovation and research.
+                </p>
+                <div class="flex gap-4">
+                    <a href="pages/programs.html" class="btn btn-primary">Explore Programs</a>
+                    <a href="pages/virtual-tour.html" class="btn btn-primary">Virtual Tour</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="section bg-light">
+            <div class="container">
+                <div class="grid grid-cols-4 gap-8 text-center" id="stats-container">
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="22">0</span>
+                        <span class="stat-label">Years of Excellence</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="95">0</span>
+                        <span class="stat-label">Placement %</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="12">0</span>
+                        <span class="stat-label">Departments</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="250">0</span>
+                        <span class="stat-label">Faculty Members</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Departments Grid -->
+        <section class="section">
+            <div class="container">
+                <div class="flex justify-between items-center mb-8">
+                    <div>
+                        <h4 class="text-accent uppercase tracking-wide mb-2" style="font-size: 0.875rem;">Academics</h4>
+                        <h2>Our Departments</h2>
+                    </div>
+                    <a href="#" class="btn btn-text">View All Departments &rarr;</a>
+                </div>
+
+                <div class="grid grid-cols-3 gap-8">
+                    <!-- Dept 1 -->
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Live_from_Wikimedia_technical_workshop_at_Amal_Jyothi_College_of_Engineering.jpg"
+                                alt="Computer Science" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">B.Tech / M.Tech</span>
+                            <h3 class="card-title">Computer Science & Engineering</h3>
+                            <p class="card-excerpt">Leading the way in AI, Cyber Security, and Software Engineering.</p>
+                            <a href="#" class="btn btn-text">Learn More</a>
+                        </div>
+                    </div>
+
+                    <!-- Dept 2 -->
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Amal_Jyothi_College_of_Engineering_Kanjirappally_Campus_DSC_9478.jpg"
+                                alt="Mechanical" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">B.Tech / M.Tech</span>
+                            <h3 class="card-title">Mechanical Engineering</h3>
+                            <p class="card-excerpt">Innovative design, robotics, and advanced manufacturing systems.</p>
+                            <a href="#" class="btn btn-text">Learn More</a>
+                        </div>
+                    </div>
+
+                    <!-- Dept 3 -->
+                    <div class="card">
+                        <div class="card-image-wrapper">
+                            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Amal_Jyothi_College_of_Engineering_Kanjirappally_Campus_DSC_9464.jpg"
+                                alt="Civil Engineering" class="card-image">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-category">B.Tech / M.Tech</span>
+                            <h3 class="card-title">Civil Engineering</h3>
+                            <p class="card-excerpt">Building sustainable infrastructure for a better tomorrow.</p>
+                            <a href="#" class="btn btn-text">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo text-white mb-4">
+                    <span>AMAL JYOTHI <small>COLLEGE OF ENGINEERING</small></span>
+                </div>
+                <p>Kanjirapally, Koovappally P.O.<br>Kottayam Dt., Kerala, India - 686518</p>
+                <p class="mt-4">Approved by AICTE | Affiliated to APJ Abdul Kalam Technological University</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Examinations</a></li>
+                    <li><a href="#">Placements</a></li>
+                    <li><a href="#">Alumni</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Campus</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Virtual Tour</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">Hostels</a></li>
+                    <li><a href="#">Transport</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Connect</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Grievance Redressal</a></li>
+                </ul>
+                <div class="flex gap-4 mt-4">
+                    <!-- Social Icons placeholders -->
+                    <a href="#" class="text-white text-xl">FB</a>
+                    <a href="#" class="text-white text-xl">IG</a>
+                    <a href="#" class="text-white text-xl">LN</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <span>&copy; 2024 Amal Jyothi College of Engineering. All rights reserved.</span>
+            <div class="flex gap-4">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js" type="module"></script>
+</body>
+
+</html>
